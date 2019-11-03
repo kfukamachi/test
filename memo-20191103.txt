@@ -1,0 +1,15 @@
+git add -A
+git commit -m 'initial commit'
+
+https://github.com/new.
+git remote add origin https://github.com/kfukamachi/test.git
+git push -u origin master
+
+
+$ cd ~/Desktop
+$ mkdir pages
+$ cd pages
+$ pipenv install django==2.2.5
+$ pipenv shell
+(pages) $ django-admin startproject pages_project .
+(pages) $ python manage.py startapp pages
